@@ -1365,6 +1365,13 @@
             },
         },
         {
+            name: "PenguinCoin",
+            onSelect: function() {
+                network = bitcoin.networks.penguincoin;
+                DOM.bip44coin.val(188);
+            },
+        },
+        {
             name: "Bitzec",
             onSelect: function() {
                 network = bitcoin.networks.bitzec;

@@ -1611,3 +1611,14 @@ bitcoin.networks.trezarcoin = {
     scriptHash: 0x08,
     wif: 0xc2
 }
+
+bitcoin.networks.penguincoin = {
+    messagePrefix: '\x19PenguinCoin Signed Message:\n',
+    bip32: {
+      public: 0x022D2533,
+      private: 0x0221312B
+    },
+    pubKeyHash: 0x37,
+    scriptHash: 0x75,
+    wif: 0xd4
+}
